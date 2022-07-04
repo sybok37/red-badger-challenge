@@ -1,0 +1,30 @@
+{
+  "name": "red-badger-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "new-project-js-mocha-script.js",
+  "scripts": {
+    "test": "NODE_ENV=test npx mocha \"src/**/*.test.js\" --recursive --require @babel/register",
+    "start": "npx babel-node --presets @babel/preset-env main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sybok37/red-badger-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sybok37/red-badger-challenge/issues"
+  },
+  "homepage": "https://github.com/sybok37/red-badger-challenge#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6",
+    "@babel/node": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "@babel/register": "^7.18.6",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
